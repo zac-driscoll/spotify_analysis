@@ -168,12 +168,14 @@ _Last updated: 2026-11-23 (Claude Code, Windows laptop)_
 - Next: tag songs/eras in therapy, enter into `notes/`, re-run.
 - Next: lyrics fetcher (step 1 above) — planned for the home machine with Codex.
   My therapy tags are the ground truth to compare the lyric emotion/theme scores to.
-- Git repo initialised locally, no commits or remote yet. Verified only code and
-  docs are untracked-but-addable; raw export and `data/` are ignored.
+- Git: pushed to private GitHub repo `zac-driscoll/spotify_analysis` (`origin`,
+  branch `main`). Commit author is the GitHub noreply address, set per repo.
+  Raw export, `data/`, `outputs/` and `notes/` are git-ignored.
 - Not yet: `renv` (packages listed above).
 
 ## Decision log
 
+- 2026-11-23 — First commit pushed to private GitHub repo.
 - 2026-11-23 — Project set up. Music only, 2023+, America/Chicago, 30 s play
   threshold, exact duplicates dropped, `ip_addr` dropped, raw and derived data
   git-ignored.
