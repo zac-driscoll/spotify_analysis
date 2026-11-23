@@ -1,0 +1,33 @@
+# Raw Spotify export: contains IP addresses and full listening history
+Spotify Extended Streaming History/
+my_spotify_data*.zip
+
+# Derived personal data, fetched lyrics (copyrighted), emotion scores
+data/
+
+# Secrets (lyrics API tokens etc.)
+.env
+.Renviron
+*.key
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Python (if Codex uses it at home)
+__pycache__/
+.venv/
+*.pyc
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+outputs/
+
+# Private personal context (read by agents locally, never pushed)
+notes/
