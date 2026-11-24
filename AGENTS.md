@@ -7,6 +7,15 @@ This file is the shared memory for every AI agent working here (Codex reads
 Edit this file only. Update **Status** and **Decision log** at the end of each
 session so the next agent (on either machine) can pick up where the last left off.
 
+## Cross-machine handoff
+
+The lyric and listening analysis code is on GitHub main. See `README.md` for
+setup and the commands to rebuild and run the analyses. Restore the separately
+transferred SQLite snapshot at `data/lyrics/lyrics.sqlite3` by extracting
+`spotify-lyrics-sqlite.zip` into the repository root. The raw Spotify export
+and lyrics database are local inputs. The NRC emotion workflow can run from
+the SQLite snapshot and rebuilt listening tables without the MiniLM model.
+
 ## Goal
 
 Quantify music listening from **2023-01-01 to present** for discussion in therapy:
