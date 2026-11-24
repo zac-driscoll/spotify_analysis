@@ -1,5 +1,5 @@
 # Raw Spotify export: contains IP addresses and full listening history
-Spotify Extended Streaming History/
+/Spotify Extended Streaming History
 my_spotify_data*.zip
 
 # Derived personal data, fetched lyrics (copyrighted), emotion scores
